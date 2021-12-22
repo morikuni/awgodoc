@@ -4,4 +4,8 @@ build:
 	
 .PHONY: alfredworkflow
 alfredworkflow: build
-	zip godoc.alfredworkflow info.plist ./awgodoc
+	zip awgodoc.alfredworkflow info.plist ./awgodoc
+	
+.PHONY: install
+install: alfredworkflow
+	open awgodoc.alfredworkflow
