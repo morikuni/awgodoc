@@ -79,7 +79,7 @@
 				<key>runningsubtext</key>
 				<string>Searching '{query}'</string>
 				<key>script</key>
-				<string>/Users/morikuni/Experiment/awgodoc/bin/awgodoc $1
+				<string>./awgodoc $1
 </string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
